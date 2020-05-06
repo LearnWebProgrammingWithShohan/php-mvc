@@ -17,4 +17,5 @@ mvc stands for model, view and controller. But the flow to be accurate is - cont
 - [ ] if the request needs some interaction with application database, it will be sent to the model section
 - [ ] from the model section the request will fetch it's needed data and then the request must be send to view along the data
 
-#### this is so far a basic flow which came from my understanding, things can be changed with your own coding style
+## this is so far a basic flow which came from my understanding, things can be changed with your own coding style
+#### be confident, stay consistent
