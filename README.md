@@ -1,7 +1,7 @@
 ## php-mvc
 #### I will explain more stuffs later - Shohan
 
-- mvc stands for model, view and controller. But the flow to be accurate is - controller -> model -> view 
+mvc stands for model, view and controller. But the flow to be accurate is - controller -> model -> view 
 
 - [ ] in server side scripting, we always receive request from client or user end, then we process the request
 - [ ] we know about basic php request handling, generally they are retrieved from get, post and request global variables
@@ -17,4 +17,4 @@
 - [ ] if the request needs some interaction with application database, it will be sent to the model section
 - [ ] from the model section the request will fetch it's needed data and then the request must be send to view along the data
 
-** this is so far a basic flow which came from my understanding, things can be changed with your own coding style **
+#### this is so far a basic flow which came from my understanding, things can be changed with your own coding style
