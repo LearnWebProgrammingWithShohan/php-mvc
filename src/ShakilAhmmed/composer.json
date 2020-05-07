@@ -1,0 +1,19 @@
+{
+  "name": "shakil/shakil-ahmmed",
+  "description": "LearnWebProgrammingWithSohan(MVC)",
+  "authors": [
+    {
+      "name": "ShakilAhmmed",
+      "email": "shakilfci461@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "phroute/phroute": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "application/"
+    }
+  }
+}
