@@ -7,17 +7,18 @@ class Product
 {
 	protected $name;
 	protected $purchasePrice;
-	protected $regularSellingPrice;
+	protected $sellingPrice;
+    protected $stock;
 
-	public function __construct($name, $purchasePrice, $regularSellingPrice)
+	public function __construct($name, $purchasePrice, $sellingPrice)
 	{
 		$this->name = $name;
 		$this->purchasePrice = $purchasePrice;
-		$this->regularSellingPrice = $regularSellingPrice;
-	}	
+		$this->sellingPrice = $sellingPrice;
+	}
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getName()
     {
@@ -25,11 +26,11 @@ class Product
     }
 
     /**
-     * @param mixed $name
+     * @param string $name
      *
-     * @return self
+     * @return string
      */
-    public function setName($name)
+    public function setName(String $name)
     {
         $this->name = $name;
 
@@ -59,19 +60,19 @@ class Product
     /**
      * @return mixed
      */
-    public function getRegularSellingPrice()
+    public function getsellingPrice()
     {
-        return $this->regularSellingPrice;
+        return $this->sellingPrice;
     }
 
     /**
-     * @param mixed $regularSellingPrice
+     * @param mixed $sellingPrice
      *
      * @return self
      */
-    public function setRegularSellingPrice($regularSellingPrice)
+    public function setsellingPrice($sellingPrice)
     {
-        $this->regularSellingPrice = $regularSellingPrice;
+        $this->sellingPrice = $sellingPrice;
 
         return $this;
     }
